@@ -1,0 +1,113 @@
+{
+  "ai_label": "[AI-GENERATED CONTENT BY AIFEL TEAM ASSISTANT :: AIFEL-AI-LABEL-V1]",
+  "data_domain": "synthetic_only",
+  "evaluation": {
+    "validation": {
+      "random_forest": {
+        "assessed_service_windows": 25883,
+        "positive_windows": 177,
+        "positive_window_prevalence": 0.0068384654020013135,
+        "precision": 0.4315068493150685,
+        "recall": 0.711864406779661,
+        "PR_AUC_average_precision": 0.49661966828807724,
+        "false_alert_windows": 166,
+        "false_alert_windows_per_100_assessed": 0.6413476026735695,
+        "service_episodes_with_false_alerts": 34,
+        "eligible_service_degradation_events": 41,
+        "events_warned_before_confirmation": 33,
+        "median_lead_to_confirmation_minutes": 25,
+        "events_warned_before_first_bad_interval": 30,
+        "median_proactive_lead_minutes": 15.0,
+        "alert_threshold": 0.8125858475756745
+      },
+      "heuristic": {
+        "assessed_service_windows": 25883,
+        "positive_windows": 177,
+        "positive_window_prevalence": 0.0068384654020013135,
+        "precision": 0.30346820809248554,
+        "recall": 0.5932203389830508,
+        "PR_AUC_average_precision": 0.18585624220747876,
+        "false_alert_windows": 241,
+        "false_alert_windows_per_100_assessed": 0.9311130858092184,
+        "service_episodes_with_false_alerts": 38,
+        "eligible_service_degradation_events": 41,
+        "events_warned_before_confirmation": 33,
+        "median_lead_to_confirmation_minutes": 20,
+        "events_warned_before_first_bad_interval": 28,
+        "median_proactive_lead_minutes": 15.0,
+        "alert_threshold": 45.0
+      },
+      "status_counts": {
+        "assessed": 25883,
+        "insufficient_evidence": 6983,
+        "already_degraded": 74
+      },
+      "forecast_coverage_excluding_observed_already_degraded": 0.7875311872451773
+    },
+    "test": {
+      "random_forest": {
+        "assessed_service_windows": 25821,
+        "positive_windows": 195,
+        "positive_window_prevalence": 0.007551992564191937,
+        "precision": 0.5420875420875421,
+        "recall": 0.8256410256410256,
+        "PR_AUC_average_precision": 0.677245835770637,
+        "false_alert_windows": 136,
+        "false_alert_windows_per_100_assessed": 0.5267030711436428,
+        "service_episodes_with_false_alerts": 46,
+        "eligible_service_degradation_events": 46,
+        "events_warned_before_confirmation": 41,
+        "median_lead_to_confirmation_minutes": 25,
+        "events_warned_before_first_bad_interval": 39,
+        "median_proactive_lead_minutes": 15,
+        "alert_threshold": 0.8125858475756745
+      },
+      "heuristic": {
+        "assessed_service_windows": 25821,
+        "positive_windows": 195,
+        "positive_window_prevalence": 0.007551992564191937,
+        "precision": 0.3127962085308057,
+        "recall": 0.676923076923077,
+        "PR_AUC_average_precision": 0.25034412854165783,
+        "false_alert_windows": 290,
+        "false_alert_windows_per_100_assessed": 1.1231168428798266,
+        "service_episodes_with_false_alerts": 44,
+        "eligible_service_degradation_events": 46,
+        "events_warned_before_confirmation": 41,
+        "median_lead_to_confirmation_minutes": 25,
+        "events_warned_before_first_bad_interval": 35,
+        "median_proactive_lead_minutes": 15,
+        "alert_threshold": 45.0
+      },
+      "status_counts": {
+        "assessed": 25821,
+        "insufficient_evidence": 7038,
+        "already_degraded": 81
+      },
+      "forecast_coverage_excluding_observed_already_degraded": 0.7858121062722542
+    },
+    "train": {
+      "status_counts": {
+        "assessed": 119540,
+        "insufficient_evidence": 33786,
+        "already_degraded": 394
+      },
+      "forecast_coverage_excluding_observed_already_degraded": 0.7796459830687554
+    }
+  },
+  "model_band_thresholds": {
+    "Watch": 0.06757793356275152,
+    "Elevated": 0.11913129621612946,
+    "High": 0.8125858475756745
+  },
+  "band_method": "High maximizes validation F1; Watch/Elevated use 50th/90th percentiles of distinct validation scores below High.",
+  "baseline_alert_threshold": 45.0,
+  "important_limitations": [
+    "Synthetic generator-dependent performance, not production accuracy.",
+    "Whole episodes are disjoint; topology and generator family are shared across splits.",
+    "Service windows sharing a resource are correlated, not independent samples.",
+    "Lead to confirmation is not the same as lead before degradation begins.",
+    "Neither model nor heuristic was tuned using the test split.",
+    "No measured financial savings or production probability calibration."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ai_label": "[AI-GENERATED CONTENT BY AIFEL TEAM ASSISTANT :: AIFEL-AI-LABEL-V1]",
+  "seed": 2026,
+  "episodes": 300,
+  "contract_sha256": "5c60377e3c26ba0b7027048bc089c904445d506d1efdfddce233b39e27c12533",
+  "neighborhood_manifest_sha256": "8c9f977d83fd993586a5435d2564aa0960996d9437ab2705fe143d816647adce",
+  "source_inventory_and_neighborhood_unchanged": true,
+  "code_sha256": {
+    "impact_predictor/__init__.py": "ec8cf255d261ed78c079a13bc25d0e769d8574f5148aba84b9ac7fb888e0770f",
+    "impact_predictor/__main__.py": "fd97b8963cc8590824c8b628ffa258a3c8d36c5fec7da35a06cffcd020e0c4e0",
+    "impact_predictor/features.py": "f84fd0c56cbf453d8f62c7aebca3ee77f743094a3a9314a18da8faa9df84cfaf",
+    "impact_predictor/inference.py": "e2943ec3bd85942b904dfb521c2444905a859f4c10f7c459c061c8d49504fc07",
+    "impact_predictor/simulation.py": "3cedcd77544b0b287b07e55c202c025ea47c7d347763a8c12cf313fd19c148dc",
+    "impact_predictor/training.py": "a8d013002375f9ee7dc348de8549fbf77392ae9aac4309403d803acf7dd016f9"
+  },
+  "dependency_versions": {
+    "numpy": "2.5.5",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.8.0"
+  },
+  "artifacts": {
+    "data_dictionary.json": "695efb653a4b41b0333d79d6bef68c1a9346d9baf8079da9797e85ca48c5afc1",
+    "demo-replay/feed_status.csv": "95a092cc2f92344ea0391792864d42a074a33b23720d42b6d068e936987a0501",
+    "demo-replay/hiper_performance.csv": "b129214b8e0ab5ac06236cac35c7a6210169ed9f6238036f2749a5facd7417c4",
+    "demo-replay/predictions.csv": "a3f8cbb7113e3cf2f1dc4b99e1e17d73fe13f2ac7ee0be0d64a78cbc8f51b75f",
+    "demo-replay/rfm_alarms.csv": "b76e4736049d76219b37684be3c0e521c7715bba23e4420ac3e3a26298c5d156",
+    "demo-replay/snapshot.json": "d5df003412b2ad302cdb3977694a909558678f95ca9b35bdde1f605fceea4968",
+    "evaluation.json": "b557ff0a98efa13b5143c980277efdfdfef44049aa75c6cdee5244ec24330aa7",
+    "heldout_predictions.csv": "1c87f26e0a00eadc82a946106c779bcaf1768ef14ac64b16dd9663a4ec981383",
+    "model.joblib": "da1299f91cf68fd3e0dee2e0c1def9ff2d3fbda035a06dfd6fed2e7a1deb8939",
+    "synthetic-data/clarify_gcr_maintenance.csv": "0be679f9ff3f71d2e4ca9478c7d0c3b635a54e8e7e901e3aa0ea138d4d4f29ae",
+    "synthetic-data/clarify_incident_outcomes.csv": "495e94c327a1f143f79c936f1eeac455c78f5959409d53b894d4110a74d16537",
+    "synthetic-data/episode_index.csv": "43c0465f9d50826eeb55aa5733e47598c59949af04b1609e96bed8ce6662b7c9",
+    "synthetic-data/feature_windows.csv": "88822902460840d7040d8657fb6e2808e860ca4d9f02b4a8311d773b89e4fbc1",
+    "synthetic-data/feed_status.csv": "92b36f7a37be4f5b8d46bc9a0759945bdce14dcff0393d2dffa95e628e7f0bd9",
+    "synthetic-data/hiper_performance.csv": "144ad252daccd1458b965a2887905d0e97e762cc1526c07c21f81883b856bf5f",
+    "synthetic-data/rfm_alarms.csv": "3baf8311f04b308ba83c72824e5dab71d17a91eddf4faf299b3558280e82b6e5",
+    "verification.json": "0b339607990d1ccf3919d579f6004ecc1c58f28695751fff7ce7d6d5af4b3b62"
+  },
+  "model_loading_policy": "Only load this locally generated model after checking its manifest hash. Joblib is unsafe for untrusted artifacts."
+}

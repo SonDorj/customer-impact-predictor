@@ -1,0 +1,65 @@
+{
+  "ai_label": "[AI-GENERATED CONTENT BY AIFEL TEAM ASSISTANT :: AIFEL-AI-LABEL-V1]",
+  "source_directory": "../clean-inventory",
+  "source_sha256": {
+    "customers.csv": "f450f5139e71e946e131d403c5fde7ff35afa667cac566d07dba0ddcb688d836",
+    "data_dictionary.json": "a63fa79eea1569ddc5bd4ca84465bcc056cc164db4653677a290a071af823966",
+    "excluded_services.csv": "1d250fd4b74d1f943472be592e8bb007e97d6ad13606ea729d42ca8a47a49a5f",
+    "inventory_cohort.csv": "1083cd801d5e9152a1e5150431bf9c3708adae5d776b0f5da289e39b34b3d95b",
+    "provenance.json": "be11513547055dc3c0d3a541723e9d0b864a0bb2fd7c813d571a95375cd11dd4",
+    "quality_report.json": "2eea8211c15098912d42ff7a59b65d13f674a7ab1701b00439099cc4b07bb908",
+    "resources.csv": "80ed8758bf06257dcdcb7b52113b71454e4cb445f2b1545bdcbe8aa471d7761b",
+    "resource_service_map.csv": "91ab0f1c0deff30a747636c2a5cb5b501c3b2eae042305d7fd43a7ba037d0984",
+    "resource_summary.csv": "8c80d75ee23c48a84454c660fb83154c22584f8c09ca25272a8de894ff0d03b3",
+    "services.csv": "29ddeea99a4dec8b3457cd1b890e425902235fba46d47047c65e706f607b3c64",
+    "service_endpoints.csv": "83d013423d31dd101649d616103257f44c441abeee4a29694ac11746e6818c88",
+    "source_issues.csv": "de41ac19f1434bb596f9f948eb6891e4f00696acebab4c846f20c27801a9cea3",
+    "unis.csv": "84c6459dee556d944747ce14fae13cac8ee80159289d932e50c5ea08a6736b9f"
+  },
+  "builder_sha256": "5d41ac1ac117993ec84c61d887468c7cb094134be45eaf88e26228fb86fc8ade",
+  "artifacts": [
+    {
+      "path": "demo_endpoints.csv",
+      "sha256": "7c15ba99bfa3adeb6a7553f1ecf8d9b798ef21fb427529f8ecf76cbeb2726b1e"
+    },
+    {
+      "path": "demo_resources.csv",
+      "sha256": "c86d2abf12b0490ef93d334510a2e52f451c06e8270a3cf23445da1c3eccf1ee"
+    },
+    {
+      "path": "demo_services.csv",
+      "sha256": "ff194925205eb635810196798c47941340c4fc1c29e43618202e9e3d9714e8e6"
+    },
+    {
+      "path": "demo_unis.csv",
+      "sha256": "66654d1d3c0937ead918b56f830a26b39f02d43cb83fbc238c538ff400fc04f6"
+    },
+    {
+      "path": "neighborhood_summary.json",
+      "sha256": "5da17e4e98d0a50b1f606663c1736f807494623250730dc6b9c01cf1514ce3ea"
+    },
+    {
+      "path": "private/source_mapping.csv",
+      "sha256": "5ccc8dc1170dff306a5dbf769299d493d85bd002e879dca42367d4679422d7ad"
+    },
+    {
+      "path": "resource_service_map.csv",
+      "sha256": "25d3faac54cffc5b0bb728e655a7020208338f790753bbb9700b5254245cc9ca"
+    },
+    {
+      "path": "scenario_assignments.csv",
+      "sha256": "c6f0649f5e333d8de312b10ef5ee71162d17c18366a82a3f9dc7f5746bcf3bd3"
+    },
+    {
+      "path": "simulation_contract.json",
+      "sha256": "21df133fd6baab6ea0c9c139ea9fd214598ee54c77c4f3dfea6573f048148dcb"
+    },
+    {
+      "path": "topology.json",
+      "sha256": "8a8b9f0e1213143cc22103151994c58a9e8f9712ad24465e2d04fa52d8e99fd7"
+    }
+  ],
+  "synthetic_measurements_created": false,
+  "model_trained": false,
+  "original_inventory_unchanged": true
+}

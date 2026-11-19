@@ -1,0 +1,26 @@
+# [AI-GENERATED CONTENT BY AIFEL TEAM ASSISTANT :: AIFEL-AI-LABEL-V1]
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+  port: ${SERVER_PORT:8180}
+spring:
+  application:
+    name: customer-impact-service
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+      accept-float-as-int: false
+    mapper:
+      allow-coercion-of-scalars: false
+impact:
+  inference:
+    base-url: ${INFERENCE_BASE_URL:http://127.0.0.1:8181}
+    connect-timeout: 2s
+    read-timeout: 10s
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never

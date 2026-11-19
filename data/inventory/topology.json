@@ -1,0 +1,693 @@
+{
+  "ai_label": "[AI-GENERATED CONTENT BY AIFEL TEAM ASSISTANT :: AIFEL-AI-LABEL-V1]",
+  "nodes": [
+    {
+      "id": "Org-A",
+      "type": "customer"
+    },
+    {
+      "id": "Org-B",
+      "type": "customer"
+    },
+    {
+      "id": "Org-C",
+      "type": "customer"
+    },
+    {
+      "id": "Org-D",
+      "type": "customer"
+    },
+    {
+      "id": "Org-E",
+      "type": "customer"
+    },
+    {
+      "id": "Org-F",
+      "type": "customer"
+    },
+    {
+      "id": "Org-G",
+      "type": "customer"
+    },
+    {
+      "id": "Org-H",
+      "type": "customer"
+    },
+    {
+      "id": "Org-I",
+      "type": "customer"
+    },
+    {
+      "id": "EVC-01",
+      "type": "service"
+    },
+    {
+      "id": "EVC-02",
+      "type": "service"
+    },
+    {
+      "id": "EVC-03",
+      "type": "service"
+    },
+    {
+      "id": "EVC-04",
+      "type": "service"
+    },
+    {
+      "id": "EVC-05",
+      "type": "service"
+    },
+    {
+      "id": "EVC-06",
+      "type": "service"
+    },
+    {
+      "id": "EVC-07",
+      "type": "service"
+    },
+    {
+      "id": "EVC-08",
+      "type": "service"
+    },
+    {
+      "id": "EVC-09",
+      "type": "service"
+    },
+    {
+      "id": "EVC-10",
+      "type": "service"
+    },
+    {
+      "id": "EVC-11",
+      "type": "service"
+    },
+    {
+      "id": "EVC-12",
+      "type": "service"
+    },
+    {
+      "id": "UNI-01",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-02",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-03",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-04",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-05",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-06",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-07",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-08",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-09",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-10",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-11",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-12",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-13",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-14",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-15",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-16",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-17",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-18",
+      "type": "uni"
+    },
+    {
+      "id": "UNI-19",
+      "type": "uni"
+    },
+    {
+      "id": "R-01",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-02",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-03",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-04",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-05",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-06",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-07",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-08",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-09",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-10",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-11",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-12",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-13",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-14",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-15",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-16",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-17",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-18",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-19",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-20",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-21",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-22",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-23",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-24",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-25",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-26",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-27",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-28",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-29",
+      "type": "resource",
+      "role": "PE"
+    },
+    {
+      "id": "R-30",
+      "type": "resource",
+      "role": "access"
+    },
+    {
+      "id": "R-31",
+      "type": "resource",
+      "role": "access"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Org-A",
+      "to": "EVC-01",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-B",
+      "to": "EVC-02",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-B",
+      "to": "EVC-03",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-B",
+      "to": "EVC-04",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-C",
+      "to": "EVC-05",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-D",
+      "to": "EVC-06",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-D",
+      "to": "EVC-07",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-E",
+      "to": "EVC-08",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-F",
+      "to": "EVC-09",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-G",
+      "to": "EVC-10",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-H",
+      "to": "EVC-11",
+      "relation": "owns_service"
+    },
+    {
+      "from": "Org-I",
+      "to": "EVC-12",
+      "relation": "owns_service"
+    },
+    {
+      "from": "EVC-01",
+      "to": "UNI-05",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-01",
+      "to": "UNI-06",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-02",
+      "to": "UNI-04",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-02",
+      "to": "UNI-08",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-03",
+      "to": "UNI-04",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-03",
+      "to": "UNI-08",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-04",
+      "to": "UNI-04",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-04",
+      "to": "UNI-08",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-05",
+      "to": "UNI-07",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-05",
+      "to": "UNI-09",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-06",
+      "to": "UNI-16",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-06",
+      "to": "UNI-10",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-07",
+      "to": "UNI-15",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-07",
+      "to": "UNI-10",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-08",
+      "to": "UNI-03",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-08",
+      "to": "UNI-17",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-09",
+      "to": "UNI-14",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-09",
+      "to": "UNI-13",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-10",
+      "to": "UNI-18",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-10",
+      "to": "UNI-19",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-11",
+      "to": "UNI-11",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-11",
+      "to": "UNI-12",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "EVC-12",
+      "to": "UNI-02",
+      "relation": "endpoint_A"
+    },
+    {
+      "from": "EVC-12",
+      "to": "UNI-01",
+      "relation": "endpoint_Z"
+    },
+    {
+      "from": "UNI-01",
+      "to": "R-13",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-01",
+      "to": "R-20",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-02",
+      "to": "R-19",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-02",
+      "to": "R-28",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-03",
+      "to": "R-31",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-03",
+      "to": "R-29",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-04",
+      "to": "R-14",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-04",
+      "to": "R-05",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-05",
+      "to": "R-09",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-05",
+      "to": "R-10",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-06",
+      "to": "R-11",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-06",
+      "to": "R-01",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-07",
+      "to": "R-27",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-07",
+      "to": "R-01",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-08",
+      "to": "R-21",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-08",
+      "to": "R-01",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-09",
+      "to": "R-22",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-09",
+      "to": "R-24",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-10",
+      "to": "R-17",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-10",
+      "to": "R-26",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-11",
+      "to": "R-30",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-11",
+      "to": "R-03",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-12",
+      "to": "R-23",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-12",
+      "to": "R-03",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-13",
+      "to": "R-15",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-13",
+      "to": "R-12",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-14",
+      "to": "R-07",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-14",
+      "to": "R-12",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-15",
+      "to": "R-16",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-15",
+      "to": "R-02",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-16",
+      "to": "R-25",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-16",
+      "to": "R-02",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-17",
+      "to": "R-18",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-17",
+      "to": "R-02",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-18",
+      "to": "R-08",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-18",
+      "to": "R-04",
+      "relation": "declared_pe_attachment"
+    },
+    {
+      "from": "UNI-19",
+      "to": "R-06",
+      "relation": "declared_access_attachment"
+    },
+    {
+      "from": "UNI-19",
+      "to": "R-04",
+      "relation": "declared_pe_attachment"
+    }
+  ],
+  "relationship_semantics": "Declared source associations, not verified forwarding paths."
+}

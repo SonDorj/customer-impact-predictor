@@ -1,0 +1,54 @@
+{
+  "ai_label": "[AI-GENERATED CONTENT BY AIFEL TEAM ASSISTANT :: AIFEL-AI-LABEL-V1]",
+  "selection_method": "Deterministic actual-source resource neighborhood",
+  "services": 12,
+  "customers_busorgs": 9,
+  "unis": 19,
+  "resources": 31,
+  "endpoints": 24,
+  "scenario_role_counts": {
+    "shared_resource_deterioration": 5,
+    "separate_resource_watch": 3,
+    "healthy_control": 3,
+    "insufficient_evidence": 1
+  },
+  "primary_event_resource": "R-01",
+  "primary_service_count": 5,
+  "primary_customer_count": 3,
+  "secondary_event_resource": "R-02",
+  "secondary_service_count": 3,
+  "healthy_control_services": [
+    "EVC-09",
+    "EVC-10",
+    "EVC-11"
+  ],
+  "insufficient_evidence_service": "EVC-12",
+  "source_connected_components": 9,
+  "source_component_service_counts": [
+    2572,
+    9,
+    7,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "requirements": {
+    "primary_group_is_complete_within_qualified_cohort": true,
+    "secondary_group_is_complete_within_qualified_cohort": true,
+    "both_uni_endpoints_preserved": true,
+    "different_groups_have_no_direct_resource_pair_overlap": true,
+    "missing_evidence_service_has_complete_inventory": true
+  },
+  "limitations": [
+    "Scenario roles are assignments for future simulation, not observed service health.",
+    "Control separation is by exact role/device/port resource association, not proof of underlay independence.",
+    "No new inventory relationships, observations, outcomes or model predictions were fabricated.",
+    "Missing-evidence case withholds telemetry in simulation; the source inventory stays complete.",
+    "Display aliases are pseudonyms. Keep private/source_mapping.csv and raw source inventory out of demos.",
+    "Alias-only artifacts are for approved internal use, not blanket permission for external publication.",
+    "Service ownership is the source BusOrg association, not an ultimate-parent assertion."
+  ]
+}

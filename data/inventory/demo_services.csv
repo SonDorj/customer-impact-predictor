@@ -1,0 +1,13 @@
+service_id,customer_id,product_type,scenario_role,inventory_status,service_lifecycle_status
+EVC-01,Org-A,ETHERNET_EVC,shared_resource_deterioration,qualified_active_uni_attachments,unverified
+EVC-02,Org-B,ETHERNET_EVC,shared_resource_deterioration,qualified_active_uni_attachments,unverified
+EVC-03,Org-B,ETHERNET_EVC,shared_resource_deterioration,qualified_active_uni_attachments,unverified
+EVC-04,Org-B,ETHERNET_EVC,shared_resource_deterioration,qualified_active_uni_attachments,unverified
+EVC-05,Org-C,ETHERNET_EVC,shared_resource_deterioration,qualified_active_uni_attachments,unverified
+EVC-06,Org-D,ETHERNET_EVC,separate_resource_watch,qualified_active_uni_attachments,unverified
+EVC-07,Org-D,ETHERNET_EVC,separate_resource_watch,qualified_active_uni_attachments,unverified
+EVC-08,Org-E,ETHERNET_EVC,separate_resource_watch,qualified_active_uni_attachments,unverified
+EVC-09,Org-F,ETHERNET_EVC,healthy_control,qualified_active_uni_attachments,unverified
+EVC-10,Org-G,ETHERNET_EVC,healthy_control,qualified_active_uni_attachments,unverified
+EVC-11,Org-H,ETHERNET_EVC,healthy_control,qualified_active_uni_attachments,unverified
+EVC-12,Org-I,ETHERNET_EVC,insufficient_evidence,qualified_active_uni_attachments,unverified

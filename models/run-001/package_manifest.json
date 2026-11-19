@@ -1,0 +1,25 @@
+{
+  "ai_label": "[AI-GENERATED CONTENT BY AIFEL TEAM ASSISTANT :: AIFEL-AI-LABEL-V1]",
+  "format": "portable-model-package-v1",
+  "run_id": "run-001",
+  "training_manifest_sha256": "35bdf5af4c200c4c9d1c10b769f8428c298269313aa289360a9832130134d6b6",
+  "training_inventory_manifest_sha256": "8c9f977d83fd993586a5435d2564aa0960996d9437ab2705fe143d816647adce",
+  "inventory_manifest_sha256": "49a7bb6778abd8317ecdc8ad9df532cba449c604014372c35fcfd0dc131f9f74",
+  "contract_sha256": "5c60377e3c26ba0b7027048bc089c904445d506d1efdfddce233b39e27c12533",
+  "files": {
+    "model.joblib": "da1299f91cf68fd3e0dee2e0c1def9ff2d3fbda035a06dfd6fed2e7a1deb8939",
+    "evaluation.json": "b557ff0a98efa13b5143c980277efdfdfef44049aa75c6cdee5244ec24330aa7",
+    "data_dictionary.json": "695efb653a4b41b0333d79d6bef68c1a9346d9baf8079da9797e85ca48c5afc1",
+    "heldout_predictions.csv": "1c87f26e0a00eadc82a946106c779bcaf1768ef14ac64b16dd9663a4ec981383",
+    "demo-replay/hiper_performance.csv": "b129214b8e0ab5ac06236cac35c7a6210169ed9f6238036f2749a5facd7417c4",
+    "demo-replay/rfm_alarms.csv": "b76e4736049d76219b37684be3c0e521c7715bba23e4420ac3e3a26298c5d156",
+    "demo-replay/feed_status.csv": "95a092cc2f92344ea0391792864d42a074a33b23720d42b6d068e936987a0501",
+    "demo-replay/snapshot.json": "d5df003412b2ad302cdb3977694a909558678f95ca9b35bdde1f605fceea4968"
+  },
+  "packaging_changes": [
+    "Exported only alias-only inventory files, checked byte-for-byte against training inputs.",
+    "Retained the original trained model and evaluation bytes.",
+    "Excluded raw inventory, private crosswalk, virtualenv, tools and full synthetic training data.",
+    "Portable serving resolves repository-relative paths; no retraining or learned-feature change."
+  ]
+}

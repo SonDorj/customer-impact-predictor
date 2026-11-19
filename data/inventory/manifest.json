@@ -1,0 +1,16 @@
+{
+  "ai_label": "[AI-GENERATED CONTENT BY AIFEL TEAM ASSISTANT :: AIFEL-AI-LABEL-V1]",
+  "format": "alias-only-inventory-v1",
+  "files": {
+    "demo_services.csv": "ff194925205eb635810196798c47941340c4fc1c29e43618202e9e3d9714e8e6",
+    "demo_unis.csv": "66654d1d3c0937ead918b56f830a26b39f02d43cb83fbc238c538ff400fc04f6",
+    "demo_resources.csv": "c86d2abf12b0490ef93d334510a2e52f451c06e8270a3cf23445da1c3eccf1ee",
+    "demo_endpoints.csv": "7c15ba99bfa3adeb6a7553f1ecf8d9b798ef21fb427529f8ecf76cbeb2726b1e",
+    "resource_service_map.csv": "25d3faac54cffc5b0bb728e655a7020208338f790753bbb9700b5254245cc9ca",
+    "scenario_assignments.csv": "c6f0649f5e333d8de312b10ef5ee71162d17c18366a82a3f9dc7f5746bcf3bd3",
+    "topology.json": "8a8b9f0e1213143cc22103151994c58a9e8f9712ad24465e2d04fa52d8e99fd7",
+    "neighborhood_summary.json": "5da17e4e98d0a50b1f606663c1736f807494623250730dc6b9c01cf1514ce3ea"
+  },
+  "scope": "Approved internal hackathon distribution, not public-data clearance.",
+  "privacy": "No raw identifiers or private source crosswalk included."
+}
